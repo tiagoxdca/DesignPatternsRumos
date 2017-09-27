@@ -14,6 +14,7 @@ public class SingletonTest {
         SingleObject object1 = SingleObject.getInstance();
 
         Assert.assertEquals(object, object1);
+        Assert.assertEquals(object.showMessage(), object1.showMessage());
 
     }
 }

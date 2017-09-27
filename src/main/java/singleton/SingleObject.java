@@ -14,7 +14,8 @@ public class SingleObject {
 	      return instance;
 	   }
 
-	   public void showMessage(){
+	   public String showMessage(){
 	      System.out.println("Hello World!");
+	      return "Hello world";
 	   }
 	}
